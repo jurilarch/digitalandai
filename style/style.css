@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    text-align: center;
+}
+.coffeeshop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.coffeeshop .block {
+    width: 24rem;
+    margin: 1rem;
+    background-color: #eee;
+    border-radius: 1rem;
+    overflow: hidden;
+    /*border: solid 3px #222;*/
+}
+.coffeeshop .block:hover {
+    /*background-color: #e0e0e0;*/
+}
+.coffeeshop .block img {
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+.coffeeshop > img {
+    display: none;
+}
+.coffeeshop .block .meta {
+    padding: 1rem;
+    background-color: #f7f7f7;
+    border: solid 8px #eee;
+    border-radius: 1rem;
+    font-family: monospace, sans-serif;
+}
+.coffeeshop .block .black {
+    background-color: #333;
+    color: white;
+}
+.coffeeshop .block .red {
+    background-color: #ba4444;
+    color: white;
+}
+.coffeeshop .block .meta .line div {
+    display: inline-block;
+}
+.coffeeshop .block .meta .line .name {
+    font-weight: bolder;
+    width: 40%;
+    text-align: left;
+}
+.coffeeshop .block .meta .line .value {
+    display: inline-block;
+}
+
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+}
