@@ -34,12 +34,42 @@ h1 {
 .coffeeshop > img {
     display: none;
 }
+.coffeeshop .block {
+    display: flex;
+    flex-direction: column;
+}
+.coffeeshop .block > h2 {
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    margin-bottom: 0.8rem;
+    margin-top: 0.4rem;
+    text-align: center;
+}
 .coffeeshop .block .meta {
     padding: 1rem;
-    background-color: #f7f7f7;
+    background-color: #f9f9f9;
     border: solid 8px #eee;
+    margin-top: -8px;
     border-radius: 1rem;
     font-family: monospace, sans-serif;
+}
+.coffeeshop .block .meta:last-of-type { 
+    flex-grow: 1;
+}
+.coffeeshop .block .meta > h3 {
+    margin: 0;
+    margin-bottom: 0.4rem;
+}
+.coffeeshop .block .meta .tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+.coffeeshop .block .meta .tags > div {
+    background-color: #006d77;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    margin: 0.2rem;
+    border-radius: 1rem;
 }
 .coffeeshop .block .black {
     background-color: #333;
