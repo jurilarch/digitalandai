@@ -28,7 +28,8 @@ h1 {
     /*background-color: #e0e0e0;*/
 }
 .coffeeshop .block img {
-    width: 100%;
+    width: 80%;
+    align-self: center;
     /* mix-blend-mode: multiply; */
 }
 .coffeeshop > img {
