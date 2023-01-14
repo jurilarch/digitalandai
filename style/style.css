@@ -59,6 +59,7 @@ h1 {
 .coffeeshop .block {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .coffeeshop .block > h2 {
     font-family: 'SatoshiBold', 'PT Serif', serif;
@@ -115,6 +116,22 @@ h1 {
 }
 .coffeeshop .block .meta .line .value {
     display: inline-block;
+}
+.coffeeshop .block .ausgetrunken {
+    background-color: #fff8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'SatoshiMedium', monospace, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-top: 8rem;
+    color: #f22e;
+    letter-spacing: 4pt;
 }
 
 
