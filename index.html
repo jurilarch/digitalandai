@@ -9,12 +9,37 @@
         <link rel="stylesheet" href="style/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+
+        <script src="script/script.js"></script>
     </head>
     <body>
+        <div class="overlay"  onclick="hideOverlay()"></div>
+        <div class="appointmentform">
+            <img src="" alt="">
+            <h2>Make an appointment</h2>
+            <div>
+                <div class="input">
+                    <div>Coffee</div>
+                    <input id="inputCoffee" type="text" disabled>
+                </div>
+                <div class="input">
+                    <div>When</div>
+                    <input id="inputDate" type="datetime">
+                </div>
+                <div class="input">
+                    <div>Name</div>
+                    <input id="inputName" type="text">
+                </div>
+                <div  class="submit">
+                    <a href="javascript:void(0)" onclick="submitDate(this)">Send it</a>
+                </div>
+            </div>
+        </div>
+
         <h1>Digital & AI Coffeeshop</h1>
 
         <div class="coffeeshop">
-            <div class="block">
+            <div class="block caffe-lab">
                 <img src="coffeeshop/DSC06867.png" alt="">
                 <h2>Caffè Lab – Etiopia</h2>
                 <div class="meta">
@@ -35,7 +60,7 @@
                         <div class="value">87</div>
                     </div>
                 </div>
-                <div class="meta caffe-lab">
+                <div class="meta">
                     <h3>Flavour</h3>
                     <div class="tags">
                         <div>White Grapes</div>
@@ -43,8 +68,11 @@
                         <div>Peach</div>
                     </div>
                 </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    Make an appointment
+                </a>
             </div>
-            <div class="block">
+            <div class="block caffe-lab">
                 <img src="coffeeshop/DSC06868.png" alt="">
                 <h2>Caffè Lab – Costarica</h2>
                 <div class="meta">
@@ -65,7 +93,7 @@
                         <div class="value">85.75</div>
                     </div>
                 </div>
-                <div class="meta caffe-lab">
+                <div class="meta">
                     <h3>Flavour</h3>
                     <div class="tags">
                         <div>Citrus Fruits</div>
@@ -73,8 +101,11 @@
                         <div>Caramel</div>
                     </div>
                 </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    Schedule a ☕ date
+                </a>
             </div>
-            <div class="block">
+            <div class="block caffe-lab">
                 <img src="coffeeshop/DSC06869.png" alt="">
                 <h2>Caffè Lab – Guatemala</h2>
                 <div class="meta caffe-lab">
@@ -95,7 +126,7 @@
                         <div class="value">88</div>
                     </div>
                 </div>
-                <div class="meta caffe-lab">
+                <div class="meta">
                     <h3>Flavour</h3>
                     <div class="tags">
                         <div>Peach</div>
@@ -103,8 +134,11 @@
                         <div>Green Tea</div>
                     </div>
                 </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    Fancy a cuppa?
+                </a>
             </div>
-            <div class="block">
+            <div class="block caffe-lab">
                 <img src="coffeeshop/DSC06870.png" alt="">
                 <h2>Caffè Lab – Kenya</h2>
                 <div class="meta">
@@ -125,7 +159,7 @@
                         <div class="value">87</div>
                     </div>
                 </div>
-                <div class="meta caffe-lab">
+                <div class="meta">
                     <h3>Flavour</h3>
                     <div class="tags">
                         <div>Lime</div>
@@ -133,8 +167,11 @@
                         <div>Jasmin</div>
                     </div>
                 </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    I want this
+                </a>
             </div>
-            <div class="block">
+            <div class="block caroma-orange">
                 <div class="ausgetrunken">😢<br />Ausgetrunken</div>
                 <img src="coffeeshop/DSC06871.png" alt="">
                 <h2>Caroma – Guatemala</h2>
@@ -156,7 +193,7 @@
                         <div class="value">81</div>
                     </div>
                 </div>
-                <div class="meta caroma-orange">
+                <div class="meta">
                     <h3>Flavour</h3>
                     <div class="tags">
                         <div>Karamell</div>
@@ -166,8 +203,11 @@
                         <div>Südfrüchte</div>
                     </div>
                 </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    Arrange a meeting
+                </a>
             </div>
-            <div class="block">
+            <div class="block caroma-red">
                 <div class="ausgetrunken">😢<br />Ausgetrunken</div>
                 <img src="coffeeshop/DSC06866.png" alt="">
                 <h2>Caroma – Lake Kivu Bio</h2>
@@ -189,7 +229,7 @@
                         <div class="value">84.5</div>
                     </div>
                 </div>
-                <div class="meta caroma-red">
+                <div class="meta">
                     <h3>Flavour</h3>
                     <div class="tags">
                         <div>Winey</div>
@@ -197,8 +237,11 @@
                         <div>Balanced Body</div>
                     </div>
                 </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    Book appointment
+                </a>
             </div>
-            <div class="block">
+            <div class="block ahbraeu">
                 <img src="coffeeshop/DSC06872.png" alt="">
                 <h2>AH Bräu – Noah</h2>
                 <div class="meta">
@@ -219,7 +262,7 @@
                         <div class="value">N/A</div>
                     </div>
                 </div>
-                <div class="meta ahbraeu">
+                <div class="meta">
                     <h3>Flavour</h3>
                     <div class="tags">
                         <div>Pleasant acidity</div>
@@ -227,8 +270,11 @@
                         <div>Fruit</div>
                     </div>
                 </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    Set up meeting
+                </a>
             </div>
-            <div class="block">
+            <div class="block man-vs-machine">
                 <img src="coffeeshop/DSC06873.png" alt="">
                 <h2>Man vs Machine – Diima Chelbesa</h2>
                 <div class="meta">
@@ -249,7 +295,7 @@
                         <div class="value">N/A</div>
                     </div>
                 </div>
-                <div class="meta man-vs-machine">
+                <div class="meta">
                     <h3>Flavour</h3>
                     <div class="tags">
                         <div>Berries</div>
@@ -258,8 +304,11 @@
                         <div>Creamy</div>
                     </div>
                 </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    Arrange a date
+                </a>
             </div>
-            <div class="block">
+            <div class="block qbo">
                 <img src="coffeeshop/DSC06874.png" alt="">
                 <h2>Qbo – Guatemala</h2>
                 <div class="meta">
@@ -280,7 +329,7 @@
                         <div class="value">N/A</div>
                     </div>
                 </div>
-                <div class="meta qbo">
+                <div class="meta">
                     <h3>Flavour</h3>
                     <div class="tags">
                         <div>Roasted hazelnut</div>
@@ -293,6 +342,9 @@
                         <div class="value">Martin B.</div>
                     </div>
                 </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    Hang
+                </a>
             </div>
             <div class="block">
                 <img src="coffeeshop/DSC06875.png" alt="">
@@ -321,8 +373,11 @@
                         <div class="value">Meinhard P.</div>
                     </div>
                 </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    Meet
+                </a>
             </div>
-            <div class="block">
+            <div class="block dietrichs">
                 <img src="coffeeshop/DSC06905.png" alt="">
                 <h2>Dietrichs – Papua Neuguinea</h2>
                 <div class="meta">
@@ -343,7 +398,7 @@
                         <div class="value">N/A</div>
                     </div>
                 </div>
-                <div class="meta dietrichs">
+                <div class="meta">
                     <h3>Flavour</h3>
                     <div class="tags">
                         <div>Komplex</div>
@@ -357,6 +412,9 @@
                         <div class="value">Sebastian Z.</div>
                     </div>
                 </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    Fix meeting
+                </a>
             </div>
             <div class="block">
                 <img src="coffeeshop/DSC06876.png" alt="">
