@@ -11,6 +11,9 @@
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
 
         <script src="script/script.js"></script>
+        
+        <!-- Reine Sbeckulation -->
+        <script src="https://github.com/twysvn/sbecky.js/releases/download/v1.0/sbecky.min.js"></script>
     </head>
     <body>
         <div class="overlay"  onclick="hideOverlay()"></div>
@@ -38,7 +41,40 @@
 
         <h1>Digital & AI Coffeeshop</h1>
 
-        <div class="coffeeshop">
+        <div id="coffeeshop">
+            
+            <div id="coffee-template" class="block $colors">
+                <img src="coffeeshop/$image" alt="">
+                <h2>$name</h2>
+                <div class="meta">
+                    <div class="line">
+                        <div class="name">Country</div>
+                        <div class="value">$country</div>
+                    </div>
+                    <div class="line">
+                        <div class="name">Region</div>
+                        <div class="value">$region</div>
+                    </div>
+                    <div class="line">
+                        <div class="name">Sea Height</div>
+                        <div class="value">$sea_level</div>
+                    </div>
+                    <div class="line">
+                        <div class="name">SCA Score</div>
+                        <div class="value">$sca_score</div>
+                    </div>
+                </div>
+                <div class="meta">
+                    <h3>Flavour</h3>
+                    <div class="tags">
+                        <div>$flavour</div>
+                    </div>
+                </div>
+                <a class="meta reserve" href="javascript:void(0);" onclick="reserve(this)">
+                    $appointment_label
+                </a>
+            </div>
+
             <div class="block caffe-lab">
                 <img src="coffeeshop/DSC06867.png" alt="">
                 <h2>Caffè Lab – Etiopia</h2>
@@ -435,4 +471,5 @@
         <footer>&copy; Meini und di Meinis</footer>
     </body>
 
+    <script src="script/data.js"></script>
 </html>
