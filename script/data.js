@@ -98,6 +98,93 @@ const coffees = {
             "colors": "caroma-red",
             "ausgetrunken": true
         },
+        {
+            "name":              "AH Bräu – Noah",
+            "image":             "DSC06872.png",
+            "country":           "Brazil",
+            "region":            "N/A",
+            "sea_level":         "700 - 1.200m",
+            "sca":               "N/A",
+            "flavours":   [
+                "Pleasant acidity",
+                "Chocolate",
+                "Fruit",
+            ],
+            "appointment_label": "Book appointment",
+            "colors": "ahbraeu",
+            "ausgetrunken": false
+        },
+        {
+            "name":              "Man vs Machine – Diima Chelbesa",
+            "image":             "DSC06873.png",
+            "country":           "Ethiopia",
+            "region":            "Gedeo",
+            "sea_level":         "2.000 - 2.300m",
+            "sca":               "N/A",
+            "flavours":   [
+                "Berries",
+                "Bergamot",
+                "Cotton Candy",
+                "Creamy",
+            ],
+            "appointment_label": "Arrange a date",
+            "colors": "man-vs-machine",
+            "ausgetrunken": false
+        },
+        {
+            "name":              "Qbo – Guatemala",
+            "image":             "DSC06874.png",
+            "country":           "Guatemala",
+            "region":            "Huehuetenango",
+            "sea_level":         "1.200 - 1.900m",
+            "sca":               "N/A",
+            "flavours":   [
+                "Roasted hazelnut",
+                "Caramel",
+            ],
+            "appointment_label": "Hang",
+            "colors": "qbo",
+            "contributor": "Martin B.",
+            "ausgetrunken": false
+        },
+        {
+            "name":              "Meini’s Roast",
+            "image":             "DSC06875.png",
+            "country":           "Ethiopia",
+            "region":            "Sidamo",
+            "sea_level":         "N/A",
+            "sca":               "N/A",
+            "flavours":   [],
+            "appointment_label": "Meet",
+            "colors": "qbo",
+            "contributor": "Meinhard P.",
+            "ausgetrunken": false
+        },
+        {
+            "name":              "Dietrichs – Papua Neuguinea",
+            "image":             "DSC06905.png",
+            "country":           "Papua Neuguinea",
+            "region":            "Waghi Valley",
+            "sea_level":         "1.400 - 1.450m",
+            "sca":               "N/A",
+            "flavours":   [
+                "Komplex",
+                "Fein Würzig",
+                "Helle Schokolade",
+            ],
+            "appointment_label": "Fix meeting",
+            "colors": "dietrichs",
+            "contributor": "Sebastian Z.",
+            "ausgetrunken": false
+        },
+        {
+            "name":              "Aeropress",
+            "image":             "DSC06876.png",
+            "flavours":   [],
+            "colors": "",
+            "contributor": "Meinhard P.",
+            "ausgetrunken": false
+        },
         
     ]
 };
@@ -127,7 +214,14 @@ function loadCoffee(filter=null) {
         }else{
             tags.parentNode.remove();
         }
-        
+        const cont = block.getElementsByClassName("contributor")[0];
+        if (!coffee.hasOwnProperty("contributor")){
+            cont.remove();
+        }
+        const appo = block.getElementsByClassName("reserve")[0];
+        if (!coffee.hasOwnProperty("appointment_label")){
+            appo.remove();
+        }
         var raw = block.outerHTML;
         for (const [key, value] of Object.entries(coffee)) {
             raw = raw.replace("$"+key, value);
