@@ -240,3 +240,20 @@ footer {
 .qbo .meta .tags div, .qbo .reserve {
     background: #111 !important;
 }
+
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+
+#search {
+    font-size: 22px;
+    border: none;
+    margin: 0 auto;
+    max-width: 90%;
+    width: 400px;
+    background: #eee;
+    border-radius: 99rem;
+    padding: 0.5rem 1rem;
+}

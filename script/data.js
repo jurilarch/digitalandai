@@ -190,10 +190,11 @@ const coffees = {
 };
 
 function coffeeFilter(coffee, filter) {
-    return coffee.name.indexOf(filter) === -1;
+    return coffee.name.toLowerCase().indexOf(filter.toLowerCase()) === -1;
 }
 
 function loadCoffee(filter=null) {
+    coffeshop.innerHTML = "";
     for (const coffee of coffees.coffeshop) {
         if (filter != null && coffeeFilter(coffee, filter))
             continue;
@@ -239,4 +240,12 @@ var coffeshop = null;
     template.remove();
     coffeshop = document.getElementById("coffeeshop");
     loadCoffee();
+    console.log(document.getElementById("search"));
+    document.getElementById("search").addEventListener("input", e => {
+        if (e.srcElement.value.length > 0) {
+            loadCoffee(e.srcElement.value);
+        } else {
+            loadCoffee();
+        }
+    })
 })();
