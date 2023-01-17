@@ -14,7 +14,7 @@ function submitDate(dom) {
     var coffee = document.getElementById('inputCoffee').value;
     var date = document.getElementById('inputDate').value;
     var name = document.getElementById('inputName').value;
-    var body = encodeURIComponent('Hi!\nI want to drink ' + coffee + ' with you on ' + date + '.\nXOXO, much luv ' + name + ' <3\n\n P.S. Bussi, baba');
+    var body = encodeURIComponent('Hi!\n\nI want to drink ' + coffee + ' with you on the ' + date + '.\nXOXO, much luv ' + name + ' <3\n\n P.S. Bussi, baba');
 
     window.open('mailto:reserve@digitalandai.coffee?subject=I%20need%20some%20coffee&body=' + body);
 }

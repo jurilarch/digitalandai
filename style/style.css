@@ -195,7 +195,7 @@ h1 {
     padding: 0.6rem;
     margin-top: 0.1rem;
     border-radius: 0.4rem;
-    border: 2px solid #999;
+    border: 2px solid #555;
     background-color: #efefef;
 }
 .appointmentform .input input:disabled {

@@ -118,7 +118,7 @@ function loadCoffee(filter=null) {
         const tags = block.getElementsByClassName("tags")[0];
         const flavour_temp = tags.children[0];
         flavour_temp.remove();
-        if(coffee.flavours.length == 0) {
+        if(coffee.flavours.length != 0) {
             for (const flavour of coffee.flavours) {
                 var flavour_cpy = flavour_temp.cloneNode(true);
                 flavour_cpy.innerHTML = flavour_cpy.innerHTML.replace("$flavour", flavour);
