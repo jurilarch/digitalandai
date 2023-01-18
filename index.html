@@ -42,7 +42,7 @@
         <h1>Digital & AI Coffeeshop</h1>
 
         <div class="search-wrapper">
-            <input id="search" type="text" placeholder="Sidamo">
+            <input id="search" type="text" placeholder="Search">
         </div>
 
         <div id="coffeeshop">
@@ -50,6 +50,11 @@
             <div id="coffee-template" class="block $colors">
                 <div class='ausgetrunken'>😢<br />Ausgetrunken</div>
                 <img src="coffeeshop/$image" alt="">
+                <div class="image">
+                    <div class="image-animation" style="mask-image: url('coffeeshop/$image');">
+                        <div class="image-animation-moving"></div>
+                    </div>
+                </div>
                 <h2>$name</h2>
                 <div class="meta">
                     <div class="line">
