@@ -132,6 +132,7 @@ h1 {
     padding-top: 8rem;
     color: #f22e;
     letter-spacing: 3pt;
+    z-index: 10;
 }
 #coffeeshop .block .reserve {
     text-align: center;
@@ -253,7 +254,69 @@ footer {
     margin: 0 auto;
     max-width: 90%;
     width: 400px;
-    background: #eee;
+    background: #f7f7f7;
     border-radius: 99rem;
     padding: 0.5rem 1rem;
+    border: 1px solid #eaeaea;
+
+    transition: 0.2s all ease;
+}
+
+#search:hover {
+    transition: 0.2s all ease;
+    background-color: #f3f3f3;
+}
+
+#search:focus {
+    transition: 0.1s all ease-in-out;
+    width: 450px;
+    outline: none;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.image-animation {
+    height: 100%;
+    width: 100%;
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+}
+
+.image-animation-moving {
+    width: 1200px;
+    height: 150px;
+    position: absolute;
+    top: -130px;
+    left: -400px;
+    transform: rotate(-20deg);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.458420868347339) 25%, rgba(255,255,255,0.8337710084033614) 35%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(255,255,255,0.8393732492997199) 65%, rgba(255,255,255,0.3883928571428571) 75%, rgba(255,255,255,0) 100%);
+    mix-blend-mode: soft-light;
+    opacity: 0.3;
+    /* transition: 0.2s all ease-in-out; */
+}
+
+.image:hover  .image-animation-moving {
+    transition: 0.45s all ease-in-out;
+    top: 350px;
+}
+
+.image {
+    height: 358px;
+    width: 100%;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    /* background-blend-mode: soft-light; */
 }

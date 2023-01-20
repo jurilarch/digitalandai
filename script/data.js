@@ -225,7 +225,7 @@ function loadCoffee(filter=null) {
         }
         var raw = block.outerHTML;
         for (const [key, value] of Object.entries(coffee)) {
-            raw = raw.replace("$"+key, value);
+            raw = raw.replaceAll("$"+key, value);
         }
         coffeshop.appendChild(block);
         block.outerHTML = raw;    
