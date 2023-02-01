@@ -14,7 +14,10 @@ const coffees = {
             ],
             "appointment_label": "Make an appointment",
             "colors": "caffe-lab",
-            "ausgetrunken": true
+            "ausgetrunken": true,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         {
             "name":              "Caffè Lab – Costarica",
@@ -30,7 +33,10 @@ const coffees = {
             ],
             "appointment_label": "Schedule a ☕ date",
             "colors": "caffe-lab",
-            "ausgetrunken": false
+            "ausgetrunken": false,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         {
             "name":              "Caffè Lab – Guatemala",
@@ -46,7 +52,10 @@ const coffees = {
             ],
             "appointment_label": "Fancy a cuppa?",
             "colors": "caffe-lab",
-            "ausgetrunken": false
+            "ausgetrunken": false,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         {
             "name":              "Caffè Lab – Kenya",
@@ -62,7 +71,10 @@ const coffees = {
             ],
             "appointment_label": "I want this",
             "colors": "caffe-lab",
-            "ausgetrunken": false
+            "ausgetrunken": false,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         {
             "name":              "Caroma – Guatemala",
@@ -80,7 +92,10 @@ const coffees = {
             ],
             "appointment_label": "Arrange a meeting",
             "colors": "caroma-orange",
-            "ausgetrunken": true
+            "ausgetrunken": true,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         {
             "name":              "Caroma – Lake Kivu Bio",
@@ -96,7 +111,10 @@ const coffees = {
             ],
             "appointment_label": "Book appointment",
             "colors": "caroma-red",
-            "ausgetrunken": true
+            "ausgetrunken": true,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         {
             "name":              "AH Bräu – Noah",
@@ -112,7 +130,10 @@ const coffees = {
             ],
             "appointment_label": "Book appointment",
             "colors": "ahbraeu",
-            "ausgetrunken": false
+            "ausgetrunken": false,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         {
             "name":              "Man vs Machine – Diima Chelbesa",
@@ -129,7 +150,10 @@ const coffees = {
             ],
             "appointment_label": "Arrange a date",
             "colors": "man-vs-machine",
-            "ausgetrunken": false
+            "ausgetrunken": false,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         {
             "name":              "Qbo – Guatemala",
@@ -145,7 +169,10 @@ const coffees = {
             "appointment_label": "Hang",
             "colors": "qbo",
             "contributor": "Martin B.",
-            "ausgetrunken": false
+            "ausgetrunken": false,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         {
             "name":              "Meini’s Roast",
@@ -158,7 +185,10 @@ const coffees = {
             "appointment_label": "Meet",
             "colors": "qbo",
             "contributor": "Meinhard P.",
-            "ausgetrunken": false
+            "ausgetrunken": false,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         {
             "name":              "Dietrichs – Papua Neuguinea",
@@ -175,7 +205,10 @@ const coffees = {
             "appointment_label": "Fix meeting",
             "colors": "dietrichs",
             "contributor": "Sebastian Z.",
-            "ausgetrunken": false
+            "ausgetrunken": false,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         {
             "name":              "Aeropress",
@@ -183,7 +216,10 @@ const coffees = {
             "flavours":   [],
             "colors": "",
             "contributor": "Meinhard P.",
-            "ausgetrunken": false
+            "ausgetrunken": false,
+            "is_new": false,
+            "is_limited": false,
+            "is_back": false
         },
         
     ]
@@ -222,6 +258,18 @@ function loadCoffee(filter=null) {
         const appo = block.getElementsByClassName("reserve")[0];
         if (!coffee.hasOwnProperty("appointment_label")){
             appo.remove();
+        }
+        const n = block.getElementsByClassName("badge-new")[0];
+        if (!coffee.is_new){
+            n.remove();
+        }
+        const lim = block.getElementsByClassName("badge-ltd")[0];
+        if (!coffee.is_limited){
+            lim.remove();
+        }
+        const back = block.getElementsByClassName("badge-back")[0];
+        if (!coffee.is_back){
+            back.remove();
         }
         var raw = block.outerHTML;
         for (const [key, value] of Object.entries(coffee)) {

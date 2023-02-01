@@ -48,10 +48,9 @@ h1 {
 #coffeeshop .block:hover {
     /*background-color: #e0e0e0;*/
 }
-#coffeeshop .block img {
+#coffeeshop .block .raw-image {
     width: 80%;
     align-self: center;
-    /* mix-blend-mode: multiply; */
 }
 #coffeeshop > img {
     display: none;
@@ -280,12 +279,10 @@ footer {
 .image-animation {
     height: 100%;
     width: 100%;
+    /* background-color: #000; */
     mask-position: center center;
     mask-repeat: no-repeat;
     mask-size: contain;
-    -webkit-mask-position: center center;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
 }
 
 .image-animation-moving {
@@ -319,4 +316,32 @@ footer {
     left: 0;
     z-index: 5;
     /* background-blend-mode: soft-light; */
+}
+
+.badge-new {
+    z-index: 99;
+    position: absolute;
+    width: 90px;
+    height: auto;
+    top: 16rem;
+    left: 6rem;
+}
+
+.badge-ltd {
+    z-index: 99;
+    position: absolute;
+    width: 90px;
+    height: auto;
+    top: 1.5rem;
+    right: 6rem;
+}
+
+.badge-back {
+    z-index: 99;
+    border: 1 px solid red;
+    position: absolute;
+    width: 90px;
+    height: auto;
+    top: 16rem;
+    left: 6rem;
 }
