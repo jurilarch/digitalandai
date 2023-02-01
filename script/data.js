@@ -14,7 +14,7 @@ const coffees = {
             ],
             "appointment_label": "Make an appointment",
             "colors": "caffe-lab",
-            "ausgetrunken": false
+            "ausgetrunken": true
         },
         {
             "name":              "Caffè Lab – Costarica",
