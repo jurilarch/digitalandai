@@ -132,7 +132,7 @@ const coffees = {
             "colors": "ahbraeu",
             "ausgetrunken": false,
             "is_new": false,
-            "is_limited": false,
+            "is_limited": true,
             "is_back": false
         },
         {
@@ -150,7 +150,7 @@ const coffees = {
             ],
             "appointment_label": "Arrange a date",
             "colors": "man-vs-machine",
-            "ausgetrunken": false,
+            "ausgetrunken": true,
             "is_new": false,
             "is_limited": false,
             "is_back": false
