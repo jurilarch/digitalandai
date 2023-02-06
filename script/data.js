@@ -132,7 +132,7 @@ const coffees = {
             "colors": "ahbraeu",
             "ausgetrunken": false,
             "is_new": false,
-            "is_limited": true,
+            "is_limited": false,
             "is_back": false
         },
         {
