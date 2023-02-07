@@ -130,7 +130,7 @@ const coffees = {
             ],
             "appointment_label": "Book appointment",
             "colors": "ahbraeu",
-            "ausgetrunken": false,
+            "ausgetrunken": true,
             "is_new": false,
             "is_limited": false,
             "is_back": false
