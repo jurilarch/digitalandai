@@ -9,7 +9,7 @@ const coffees = {
             "sca":               "",
             "flavours":   [
             ],
-            "appointment_label": "Make an appointment",
+            "appointment_label": "ቀጠሮ",
             "colors": "caffe-lab",
             "ausgetrunken": false,
             "is_new": true,
@@ -25,7 +25,7 @@ const coffees = {
             "sca":               "",
             "flavours":   [
             ],
-            "appointment_label": "Make an appointment",
+            "appointment_label": "Haga una cita",
             "colors": "caffe-lab",
             "ausgetrunken": false,
             "is_new": true,
@@ -41,7 +41,7 @@ const coffees = {
             "sca":               "",
             "flavours":   [
             ],
-            "appointment_label": "Make an appointment",
+            "appointment_label": "Lossmors tuschn",
             "colors": "caffe-lab",
             "ausgetrunken": false,
             "is_new": true,
@@ -57,7 +57,7 @@ const coffees = {
             "sca":               "",
             "flavours":   [
             ],
-            "appointment_label": "Make an appointment",
+            "appointment_label": "Concertar una cita",
             "colors": "caroma-orange",
             "ausgetrunken": false,
             "is_new": false,
@@ -173,7 +173,7 @@ const coffees = {
                 "Ripe Red Fruits",
                 "Balanced Body",
             ],
-            "appointment_label": "Book appointment",
+            "appointment_label": "An appointment for the books",
             "colors": "caroma-red",
             "ausgetrunken": true,
             "is_new": false,
