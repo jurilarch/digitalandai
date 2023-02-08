@@ -241,6 +241,16 @@ footer {
     background: #111 !important;
 }
 
+.caroma-green .meta .tags div, .caroma-green .reserve{
+    background: rgb(14,133,100);
+    background: linear-gradient(180deg, rgba(14,133,100,1) 0%, rgba(20,94,68,1) 100%);
+}
+
+.caroma-bronze .meta .tags div, .caroma-bronze .reserve{
+    background: rgb(181,106,23);
+    background: linear-gradient(180deg, rgba(181,106,23,1) 0%, rgba(110,73,22,1) 100%);
+}
+
 .search-wrapper {
     display: flex;
     justify-content: center;

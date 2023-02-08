@@ -10,7 +10,7 @@ const coffees = {
             "flavours":   [
             ],
             "appointment_label": "ቀጠሮ",
-            "colors": "caffe-lab",
+            "colors": "caroma-red",
             "ausgetrunken": false,
             "is_new": true,
             "is_limited": true,
@@ -26,7 +26,7 @@ const coffees = {
             "flavours":   [
             ],
             "appointment_label": "Haga una cita",
-            "colors": "caffe-lab",
+            "colors": "caroma-green",
             "ausgetrunken": false,
             "is_new": true,
             "is_limited": false,
@@ -42,7 +42,7 @@ const coffees = {
             "flavours":   [
             ],
             "appointment_label": "Lossmors tuschn",
-            "colors": "caffe-lab",
+            "colors": "caroma-bronze",
             "ausgetrunken": false,
             "is_new": true,
             "is_limited": false,
