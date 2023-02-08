@@ -60,9 +60,9 @@ const coffees = {
             "appointment_label": "Make an appointment",
             "colors": "caroma-orange",
             "ausgetrunken": false,
-            "is_new": true,
+            "is_new": false,
             "is_limited": false,
-            "is_back": false
+            "is_back": true
         },
         {
             "name":              "Caffè Lab – Etiopia",
