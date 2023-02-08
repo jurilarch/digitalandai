@@ -1,6 +1,70 @@
 const coffees = {
     "coffeshop": [
         {
+            "name":              "Caroma - Etiopia",
+            "image":             "DSC06918.png",
+            "country":           "Ethiopia",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "",
+            "flavours":   [
+            ],
+            "appointment_label": "Make an appointment",
+            "colors": "caffe-lab",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": true,
+            "is_back": false
+        },
+        {
+            "name":              "Caroma - Peru",
+            "image":             "DSC06917.png",
+            "country":           "Peru",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "",
+            "flavours":   [
+            ],
+            "appointment_label": "Make an appointment",
+            "colors": "caffe-lab",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+        {
+            "name":              "Caroma - Julia",
+            "image":             "DSC06915.png",
+            "country":           "",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "",
+            "flavours":   [
+            ],
+            "appointment_label": "Make an appointment",
+            "colors": "caffe-lab",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+        {
+            "name":              "Caroma - Honduras",
+            "image":             "DSC06913.png",
+            "country":           "Honduras",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "",
+            "flavours":   [
+            ],
+            "appointment_label": "Make an appointment",
+            "colors": "caroma-orange",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+        {
             "name":              "Caffè Lab – Etiopia",
             "image":             "DSC06867.png",
             "country":           "Ethiopia",

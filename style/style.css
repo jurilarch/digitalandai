@@ -279,7 +279,6 @@ footer {
 .image-animation {
     height: 100%;
     width: 100%;
-    /* background-color: #000; */
     mask-position: center center;
     mask-repeat: no-repeat;
     mask-size: contain;
