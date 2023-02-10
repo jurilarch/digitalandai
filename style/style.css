@@ -331,7 +331,7 @@ footer {
 }
 
 .badge-new {
-    z-index: 99;
+    z-index: 90;
     position: absolute;
     width: 90px;
     height: auto;
@@ -340,7 +340,7 @@ footer {
 }
 
 .badge-ltd {
-    z-index: 99;
+    z-index: 90;
     position: absolute;
     width: 90px;
     height: auto;
@@ -349,7 +349,7 @@ footer {
 }
 
 .badge-back {
-    z-index: 99;
+    z-index: 90;
     border: 1 px solid red;
     position: absolute;
     width: 90px;
