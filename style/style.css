@@ -208,45 +208,45 @@ footer {
     font-family: sans-serif;
 }
 
-.caroma-red .meta .tags div, .caroma-red .reserve {
+.caroma-red .meta .tags div, .caroma-red .reserve, .caroma-red a {
     background: rgb(138,16,16);
     background: linear-gradient(180deg, rgba(138,16,16,1) 0%, rgba(195,68,68,1) 100%)!important;
 }
 
-.caroma-orange .meta .tags div, .caroma-orange .reserve {
+.caroma-orange .meta .tags div, .caroma-orange .reserve, .caroma-orange a {
     background: rgb(224,112,54);
     background: linear-gradient(180deg, rgba(224,112,54,1) 0%, rgba(235,131,0,1) 100%)!important;
 }
 
-.caffe-lab .meta .tags div, .caffe-lab .reserve {
+.caffe-lab .meta .tags div, .caffe-lab .reserve, .caffe-lab a {
     background: rgb(62,140,11);
     background: linear-gradient(180deg, rgba(62,140,11,1) 0%, rgba(87,161,76,1) 100%)!important;
 }
 
-.man-vs-machine .meta .tags div, .man-vs-machine .reserve {
+.man-vs-machine .meta .tags div, .man-vs-machine .reserve, .man-vs-machine a {
     background: rgb(252,65,21);
     background: linear-gradient(180deg, rgba(252,65,21,1) 0%, rgba(244,91,33,1) 100%)!important;
 }
 
-.dietrichs .meta .tags div, .dietrichs .reserve {
+.dietrichs .meta .tags div, .dietrichs .reserve, .dietrichs a {
     background: rgb(252,21,82);
     background: linear-gradient(180deg, rgba(252,21,82,1) 0%, rgba(213,38,96,1) 100%)!important;
 }
 
-.ahbraeu .meta .tags div, .ahbraeu .reserve {
+.ahbraeu .meta .tags div, .ahbraeu .reserve, .ahbraeu a {
     background: #111 !important;
 }
 
-.qbo .meta .tags div, .qbo .reserve {
+.qbo .meta .tags div, .qbo .reserve, .qbo a {
     background: #111 !important;
 }
 
-.caroma-green .meta .tags div, .caroma-green .reserve{
+.caroma-green .meta .tags div, .caroma-green .reserve, .caroma-green a {
     background: rgb(14,133,100);
     background: linear-gradient(180deg, rgba(14,133,100,1) 0%, rgba(20,94,68,1) 100%);
 }
 
-.caroma-bronze .meta .tags div, .caroma-bronze .reserve{
+.caroma-bronze .meta .tags div, .caroma-bronze .reserve, .caroma-bronze a {
     background: rgb(181,106,23);
     background: linear-gradient(180deg, rgba(181,106,23,1) 0%, rgba(110,73,22,1) 100%);
 }

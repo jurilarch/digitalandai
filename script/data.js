@@ -13,7 +13,7 @@ const coffees = {
                 "Zitrone",
                 "Jasmin",
                 "Hagebutte",
-                "teeartig"
+                "Teeartig"
             ],
             "appointment_label": "ቀጠሮ",
             "colors": "caroma-red",
