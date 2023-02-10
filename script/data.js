@@ -1,7 +1,7 @@
 const coffees = {
     "coffeshop": [
         {
-            "name":              "Caroma - Etiopia",
+            "name":              "Caroma - Ethiopia",
             "image":             "DSC06918.png",
             "country":           "Ethiopia",
             "region":            "Guji",
@@ -44,7 +44,7 @@ const coffees = {
         {
             "name":              "Caroma - Julia",
             "image":             "DSC06915.png",
-            "country":           "Congo/Ethiopia/Ruanda/Honduras",
+            "country":           "Congo, Ethiopia, Ruanda, Honduras",
             "region":            "...",
             "sea_level":         "N/A",
             "sca":               "84",
