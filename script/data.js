@@ -152,7 +152,7 @@ const coffees = {
             ],
             "appointment_label": "I want this",
             "colors": "caffe-lab",
-            "ausgetrunken": false,
+            "ausgetrunken": true,
             "is_new": false,
             "is_limited": false,
             "is_back": false
