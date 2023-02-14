@@ -11,6 +11,8 @@ function reserve(dom) {
     resdom.getElementsByClassName('submit')[0].setAttribute('class', 'submit')
     resdom.getElementsByClassName('submit')[0].classList.add(className)
 
+    document.getElementById('inputCoffee').value = coffee
+
     showOverlay()
 }
 
