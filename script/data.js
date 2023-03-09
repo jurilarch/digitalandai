@@ -15,7 +15,7 @@ const coffees = {
                 "Hagebutte",
                 "Teeartig"
             ],
-            "appointment_label": "ቀጠሮ",
+            "appointment_label": "ቀጠሮ - Auf Anfrage",
             "colors": "caroma-red",
             "ausgetrunken": false,
             "is_new": true,
