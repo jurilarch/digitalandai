@@ -17,8 +17,8 @@ const coffees = {
             ],
             "appointment_label": "ቀጠሮ - Auf Anfrage",
             "colors": "caroma-red",
-            "ausgetrunken": false,
-            "is_new": true,
+            "ausgetrunken": true,
+            "is_new": false,
             "is_limited": true,
             "is_back": false
         },
@@ -37,7 +37,7 @@ const coffees = {
             "appointment_label": "Haga una cita",
             "colors": "caroma-green",
             "ausgetrunken": false,
-            "is_new": true,
+            "is_new": false,
             "is_limited": false,
             "is_back": false
         },
@@ -114,7 +114,7 @@ const coffees = {
             ],
             "appointment_label": "Schedule a ☕ date",
             "colors": "caffe-lab",
-            "ausgetrunken": false,
+            "ausgetrunken": true,
             "is_new": false,
             "is_limited": false,
             "is_back": false
@@ -133,7 +133,7 @@ const coffees = {
             ],
             "appointment_label": "Fancy a cuppa?",
             "colors": "caffe-lab",
-            "ausgetrunken": false,
+            "ausgetrunken": true,
             "is_new": false,
             "is_limited": false,
             "is_back": false
@@ -250,7 +250,7 @@ const coffees = {
             "appointment_label": "Hang",
             "colors": "qbo",
             "contributor": "Martin B.",
-            "ausgetrunken": false,
+            "ausgetrunken": true,
             "is_new": false,
             "is_limited": false,
             "is_back": false
@@ -266,7 +266,7 @@ const coffees = {
             "appointment_label": "Meet",
             "colors": "qbo",
             "contributor": "Meinhard P.",
-            "ausgetrunken": false,
+            "ausgetrunken": true,
             "is_new": false,
             "is_limited": false,
             "is_back": false
