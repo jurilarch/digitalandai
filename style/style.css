@@ -75,7 +75,7 @@ h1 {
     border-radius: 1rem;
     font-family: 'SatoshiMedium', monospace, sans-serif;
 }
-#coffeeshop .block .meta:last-of-type { 
+#coffeeshop .block .meta:last-of-type {
     flex-grow: 1;
 }
 #coffeeshop .block .meta > h3 {
@@ -249,6 +249,11 @@ footer {
 .caroma-bronze .meta .tags div, .caroma-bronze .reserve, .caroma-bronze a {
     background: rgb(181,106,23);
     background: linear-gradient(180deg, rgba(181,106,23,1) 0%, rgba(110,73,22,1) 100%);
+}
+
+.luv .meta .tags div, .luv .reserve, .luv a {
+    background: rgb(255, 174, 212);
+    background: linear-gradient(180deg, rgb(255, 174, 212) 0%, rgb(255, 143, 218) 100%);
 }
 
 .search-wrapper {

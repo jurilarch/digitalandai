@@ -255,18 +255,34 @@ const coffees = {
             "is_limited": false,
             "is_back": false
         },
+        // {
+        //     "name":              "Meini’s Roast",
+        //     "image":             "DSC06875.png",
+        //     "country":           "Ethiopia",
+        //     "region":            "Sidamo",
+        //     "sea_level":         "N/A",
+        //     "sca":               "N/A",
+        //     "flavours":   [],
+        //     "appointment_label": "Meet",
+        //     "colors": "qbo",
+        //     "contributor": "Meinhard P.",
+        //     "ausgetrunken": true,
+        //     "is_new": false,
+        //     "is_limited": false,
+        //     "is_back": false
+        // },
         {
-            "name":              "Meini’s Roast",
+            "name":              "Sebastians’s Import",
             "image":             "DSC06875.png",
-            "country":           "Ethiopia",
-            "region":            "Sidamo",
+            "country":           "-",
+            "region":            "-",
             "sea_level":         "N/A",
             "sca":               "N/A",
             "flavours":   [],
-            "appointment_label": "Meet",
-            "colors": "qbo",
-            "contributor": "Meinhard P.",
-            "ausgetrunken": true,
+            "appointment_label": "Experience the unknown",
+            "colors": "luv",
+            "contributor": "Sebastian R.",
+            "ausgetrunken": false,
             "is_new": false,
             "is_limited": false,
             "is_back": false
@@ -291,18 +307,18 @@ const coffees = {
             "is_limited": false,
             "is_back": false
         },
-        {
-            "name":              "Aeropress",
-            "image":             "DSC06876.png",
-            "flavours":   [],
-            "colors": "",
-            "contributor": "Meinhard P.",
-            "ausgetrunken": false,
-            "is_new": false,
-            "is_limited": false,
-            "is_back": false
-        },
-        
+        // {
+        //     "name":              "Aeropress",
+        //     "image":             "DSC06876.png",
+        //     "flavours":   [],
+        //     "colors": "",
+        //     "contributor": "Meinhard P.",
+        //     "ausgetrunken": false,
+        //     "is_new": false,
+        //     "is_limited": false,
+        //     "is_back": false
+        // },
+
     ]
 };
 
@@ -312,6 +328,8 @@ function coffeeFilter(coffee, filter) {
 
 function loadCoffee(filter=null) {
     coffeshop.innerHTML = "";
+    coffees.coffeshop.sort((a, b) => (Number(a.ausgetrunken) - Number(b.ausgetrunken)) /*|| (Number(b.sca) - Number(a.sca))*/ || (a.name.localeCompare(b.name)));
+    console.log(coffees.coffeshop);
     for (const coffee of coffees.coffeshop) {
         if (filter != null && coffeeFilter(coffee, filter))
             continue;
@@ -357,7 +375,7 @@ function loadCoffee(filter=null) {
             raw = raw.replaceAll("$"+key, value);
         }
         coffeshop.appendChild(block);
-        block.outerHTML = raw;    
+        block.outerHTML = raw;
     }
 }
 
