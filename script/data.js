@@ -307,6 +307,170 @@ const coffees = {
             "is_limited": false,
             "is_back": false
         },
+
+        {
+            "name":              "Round Hill Roastery - Isabel #1",
+            "image":             "rhr_isabel1.png",
+            "country":           "Honduras",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "N/A",
+            "flavours":   [
+            ],
+            "appointment_label": "Fix meeting",
+            "colors": "qbo",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+
+        {
+            "name":              "Man vs Machine - Shifa",
+            "image":             "mvm_shifa.png",
+            "country":           "",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "N/A",
+            "flavours":   [
+            ],
+            "appointment_label": "Fix meeting",
+            "colors": "man-vs-machine",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+        {
+            "name":              "Man vs Machine - Buku",
+            "image":             "mvm_buku.png",
+            "country":           "",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "N/A",
+            "flavours":   [
+            ],
+            "appointment_label": "Fix meeting",
+            "colors": "caroma-green",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+        {
+            "name":              "Mocambo Supermiscela",
+            "image":             "mocambo_supermiscela.png",
+            "country":           "",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "N/A",
+            "flavours":   [
+            ],
+            "appointment_label": "Fix meeting",
+            "colors": "caroma-green",
+            "contributor": "Christine T. & insre lieblings Freundin, Kollegin, die coolste Gitsche af do Welt (Kathi)",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+        {
+            "name":              "Kuntrawant",
+            "image":             "kuntrawant.png",
+            "country":           "",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "N/A",
+            "flavours":   [
+            ],
+            "appointment_label": "Fix meeting",
+            "colors": "qbo",
+            "contributor": "Martin B.",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+        {
+            "name":              "JB - Standl 20",
+            "image":             "JB_standl20.png",
+            "country":           "",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "N/A",
+            "flavours":   [
+            ],
+            "appointment_label": "Fix meeting",
+            "colors": "qbo",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+        {
+            "name":              "Garage Coffee - Zuriake",
+            "image":             "garage_zuriake.png",
+            "country":           "",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "N/A",
+            "flavours":   [
+            ],
+            "appointment_label": "Fix meeting",
+            "colors": "dietrichs",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+        {
+            "name":              "Garage Coffee - Adado",
+            "image":             "garage_adado.png",
+            "country":           "",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "N/A",
+            "flavours":   [
+            ],
+            "appointment_label": "Fix meeting",
+            "colors": "qbo",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+        {
+            "name":              "Coffeecult - Kolumbien",
+            "image":             "coffecult_kolumbien.png",
+            "country":           "Kolumbien",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "N/A",
+            "flavours":   [
+            ],
+            "appointment_label": "Set-up a meeting",
+            "colors": "caroma-green",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
+        {
+            "name":              "Coffeecult - Äthiopien",
+            "image":             "coffecult_athiopien.png",
+            "country":           "Äthiopien",
+            "region":            "",
+            "sea_level":         "",
+            "sca":               "N/A",
+            "flavours":   [
+            ],
+            "appointment_label": "Deliver excellence",
+            "colors": "caroma-orange",
+            "ausgetrunken": false,
+            "is_new": true,
+            "is_limited": false,
+            "is_back": false
+        },
         // {
         //     "name":              "Aeropress",
         //     "image":             "DSC06876.png",
