@@ -302,7 +302,7 @@ const coffees = {
             "appointment_label": "Fix meeting",
             "colors": "dietrichs",
             "contributor": "Sebastian Z.",
-            "ausgetrunken": false,
+            "ausgetrunken": true,
             "is_new": false,
             "is_limited": false,
             "is_back": false
