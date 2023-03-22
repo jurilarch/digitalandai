@@ -326,7 +326,7 @@ const coffees = {
         },
 
         {
-            "name":              "Man vs Machine - Shifa",
+            "name":              "Man vs Machine - Shifa Family",
             "image":             "mvm_shifa.png",
             "country":           "",
             "region":            "",
@@ -342,7 +342,7 @@ const coffees = {
             "is_back": false
         },
         {
-            "name":              "Man vs Machine - Buku",
+            "name":              "Man vs Machine - Buku Sayisa",
             "image":             "mvm_buku.png",
             "country":           "",
             "region":            "",
