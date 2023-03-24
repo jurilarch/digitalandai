@@ -393,7 +393,7 @@ const coffees = {
         },
         {
             "name":              "JB - Standl 20",
-            "image":             "JB_standl20.png",
+            "image":             "jb_standl20.png",
             "country":           "",
             "region":            "",
             "sea_level":         "",
