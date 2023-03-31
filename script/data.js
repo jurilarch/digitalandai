@@ -32,7 +32,7 @@ const coffees = {
             "flavours":   [
                 "Voller Körper",
                 "Leichte Würze",
-                "Blumig"
+                "Florial"
             ],
             "appointment_label": "Haga una cita",
             "colors": "caroma-green",
@@ -392,13 +392,14 @@ const coffees = {
             "is_back": false
         },
         {
-            "name":              "JB - Standl 20",
+            "name":              "JB - Kontema Natural",
             "image":             "jb_standl20.png",
-            "country":           "",
-            "region":            "",
-            "sea_level":         "",
+            "country":           "Äthiopien",
+            "region":            "Sidama",
+            "sea_level":         "2.100 - 2.300m",
             "sca":               "N/A",
             "flavours":   [
+                "tropische Früchte", "Kiwi", "Blaubeeren", "floral"
             ],
             "appointment_label": "Fix meeting",
             "colors": "qbo",
